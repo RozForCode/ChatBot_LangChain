@@ -4,6 +4,7 @@ from langchain.chains import LLMChain
 from dotenv import load_dotenv
 import os
 
+# most of the module imports are deprecated versions that need to be updated according to the console warning
 load_dotenv()
 KNOWLEDGE_BASE = {
     "What’s my account balance?": "Please log in to your BMO online banking to view your current account balance.",
